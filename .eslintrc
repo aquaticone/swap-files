@@ -1,0 +1,13 @@
+{
+  "plugins": ["prettier"],
+  "extends": ["plugin:node/recommended", "prettier"],
+  "env": {
+    "node": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "no-sync": 0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "swap-token-id",
+  "version": "0.0.1",
+  "description": "Tool for swapping tokenIds during NFT collection finalization. Used when reserving specific tokens for marketing purposes.",
+  "main": "index.js",
+  "author": "aquatic <aquaticone@protonmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-node": "^4.1.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.7.1"
+  }
+}
