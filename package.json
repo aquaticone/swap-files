@@ -1,17 +1,27 @@
 {
-  "name": "swap-token-id",
+  "name": "swap-files",
   "version": "0.0.1",
-  "description": "Tool for swapping tokenIds during NFT collection finalization. Used when reserving specific tokens for marketing purposes.",
-  "main": "index.js",
+  "description": "Tool for swapping the filenames of two files",
+  "main": "./index.cjs",
   "author": "aquatic <aquaticone@protonmail.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "swap": "node ./index.cjs",
+    "lint": "eslint ./index.cjs --fix",
+    "format": "prettier --write ."
+  },
   "devDependencies": {
     "eslint": "^8.19.0",
     "eslint-config-node": "^4.1.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-prettier": "^4.2.1",
     "prettier": "^2.7.1"
+  },
+  "dependencies": {
+    "prompts": "^2.4.2",
+    "yargs": "^17.5.1"
   }
 }
