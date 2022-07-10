@@ -8,7 +8,7 @@ const { hideBin } = require("yargs/helpers")
 yargs(hideBin(process.argv))
   .command(
     "$0 <pathA> <pathB>",
-    "swap filenames of two files",
+    "Swap filenames of two files",
     async (yargs) => {
       return yargs
         .positional("pathA", {
@@ -21,10 +21,6 @@ yargs(hideBin(process.argv))
         })
     },
     async ({ pathA, pathB }) => {
-      if (!pathA || !pathB) {
-        console.error("You must provide two file paths to swap")
-        return
-      }
       if (!pathA.includes("/") || !pathB.includes("/")) {
         console.error("File paths must include a slash")
         return
