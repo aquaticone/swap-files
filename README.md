@@ -1,4 +1,7 @@
-# swap-token-id
-Tool for swapping tokenIds during NFT collection finalization. Used when reserving specific tokens for marketing purposes.
+# swap-files
+
+Tool for swapping the filenames of two files.
+
 ## Usage
-1. `yarn swap "../path/to/file/1.png" "../path/to/file/2.png"`
+
+1. `yarn swap ../path/to/file/1.png ../path/to/file/2.png`

@@ -1,6 +1,6 @@
 {
   "name": "swap-files",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Tool for swapping the filenames of two files",
   "main": "./index.cjs",
   "author": "aquatic <aquaticone@protonmail.com>",
